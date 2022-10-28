@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="regform"> <h1> Registration Form</h1>
+    </div>
+    <div class="main">
+      <form action="https://toufiqcse.github.io/surveyform/">
+        <div id="name">
+          
+          <h2 class="name">Name </h2>
+          <div class="first-name-table">
+          
+          <input type="text" class="firstname" name="first_name" placeholder="Enter Your First Name" required> 
+          
+          </div>
+          <div class="last-name-table">
+          <input type="text" class="lastname" name="last_name" placeholder="Enter your last name" required/>
+          
+          </div>
+          
+       </div>
+          <h2 class="name"> Address</h2>
+          <input type="text" class="address" name="address" placeholder="Enter your current address" required/>
+          
+          <h2 class="name">Date of Birth </h2>
+          <section class="date-of-birth">
+          
+              <div class="field-inline-block">
+                
+                <input type="number" pattern="[0-9]*" maxlength="2" size="2" class="date-field-day" placeholder="Enter Day" required />
+              </div>
+              
+              <div class="field-inline-block">
+              
+                <input type="text" pattern="[a-z]*" maxlength="8" size="8" class="date-field-month" placeholder="Enter Month" required />
+              </div>
+              
+              <div class="field-inline-block">
+                
+                <input type="number" pattern="[0-9]*" maxlength="4" size="4" class="date-field-year" placeholder="Enter Year" required />
+              </div>
+          <h2 class="name"> Email </h2>
+          <input type="text" class="email" name="email" placeholder="Enter your email" required/>
+          <h2 class="name"> Mobile No </h2>
+          
+          <input type="number" class="number" name="phone" placeholder="Enter your mobile no" required/>
+          
+          <h2 class="name"> Subject</h2>
+          <select name="option" class="subject">
+            <option disabled selected value> Select Subject</option>
+            <option value="WebDesign">Web Design</option>
+            <option value="App Develop">App Develop</option>
+            <option value="Graphics">Graphics</option>
+          </select>
+          <h2 class="student">Are you beginner?</h2>
+          <div class="radio-yes">
+          <label class="radio">
+            <input type="radio" name="user-recommend" value="yes" class="input-radio" /> Yes
+            </label>
+          </div>
+          <div class="radio-no">
+            <label class="radio">
+            <input type="radio" name="user-recommend" value="no" class="input-radio" /> No
+            </label>
+          </div>
+          <button type="submit">Submit  </button>
+      </form>
+    </div>
+  
+  
+</body>
+</html>

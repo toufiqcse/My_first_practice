@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@700;900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(109, 109, 109);
+    width: 100%;
+    height: 90px;
+    display: block;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    position: fixed;
+}
+.logo-image{
+    background-image: url('images/toufiqcse7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 79px;
+    width: 81px;
+    display: block;
+    margin-left: 168px;
+    margin-top: 0;
+    border: 1px solid #fff;
+    border-radius: 58px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    float: left;
+}
+.header-text{
+    display: inline-block;
+    
+    position: relative;
+    margin-left: 123px;
+    margin-top: -13px;
+    font-size: 30px;
+    color: #bbefc8;
+}
+.search-icon{
+    display: inline-block;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 20px;
+    height: 33px;
+    width: 355px;
+    border: 5px black;
+    border-radius: 41px;
+  }
+  .sign-in{
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 566px;
+    margin-top: 37px;
+  }
+  .sign-in a{
+    text-decoration: none;
+    list-style-type: none;
+    color:  #bbefc8;
+    padding-left: 5px;
+    
+  }
+  .sign-in a:hover{
+    color: #432626;
+  }
+  .nav-menu{
+  
+    position: sticky;
+    top: 90px;
+    box-sizing: border-box;
+  }
+  .main-menu{
+    background: rgb(195, 217, 238);
+    position: sticky;
+   
+  }
+  .main-menu ul {
+      list-style-type: none;
+      margin-left: 200px;
+      display: inline;
+     }
+  
+   .main-menu ul li {
+     float: left;
+     position: relative;
+     margin-left: 63px;
+    
+  
+  
+   }
+  
+   .main-menu::after {
+     content: '';
+     display: block;
+     clear: both;
+   }
+  
+   .main-menu ul li a {
+     text-decoration: none;
+     padding: 20px 20px;
+     display: inline-block;
+     font-size: 20px;
+     color: #432626;
+     box-shadow: 3px 0px 8px rgba(0, 0, 0, 0.2);
+     font-family: 'Noto Sans Bengali', sans-serif;
+      float: left;
+  
+  
+   }
+  
+   .main-menu ul li:hover {
+     background: rgb(97, 155, 194);
+   }
+.social-icon{
+  display: inline-block;
+  margin-left: -94px;
+   
+}
+.social-icon a{
+  height: 50px;
+  width: 50px;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  margin-top: 7px;
+  box-shadow: 1px 4px 2px 2px gray;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  padding-left: 1px;
+}
+.social-icon a i{
+  font-size: 25px;
+  transition: all 0.3s linear;
+
+}
+.social-icon a:hover i{
+  transform: scale(1.4);
+}
+.fa-facebook{
+  color: rgb(18, 165, 223);
+}
+.fa-twitter{
+  color: rgb(47, 98, 240);
+}
+.fa-youtube{
+  color: rgb(180, 25, 25);
+}
+.fa-envelope{
+  color: rgba(17, 19, 18, 0.719);
+}
+
+ 
+
+
+
+
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  
+  overflow: hidden
+}
+
+.heart {
+  position: absolute;
+  top: -50%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -m-transform: rotate(-45deg);
+  transform: rotate(-45deg)
+}
+
+.heart:before {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 100%;
+}
+
+.heart:after {
+  position: absolute;
+  top: 0;
+  right: -50%;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 100%;
+}
+
+@-webkit-keyframes love {
+0%{top:110%}
+}
+@-moz-keyframes love {
+0%{top:110%}
+}
+@-ms-keyframes love {
+0%{top:110%}
+}
+@keyframes love {
+0%{top:110%}
+}
+
+.playground{
+  perspective: 800px;
+}
+.cube{
+  -webkit-transform-style: preserve-3d;
+position: relative;
+margin: 0 auto;
+width: 70px;
+height: 69px;
+animation: spin 22s infinite linear;
+margin: 0px auto;
+top: -92px;
+  -webkit-transform-origin: 100% 50%;
+}
+
+@-webkit-keyframes spin{
+  from { 
+    -webkit-transform: rotateX(-45deg) rotateY(0deg); 
+  }
+  to { 
+    -webkit-transform: rotateX(-45deg) rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes pulsate{
+  from{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.25;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.face{
+  width: 300px;
+  height: 300px;
+  border: 6px outset #ccc;
+  text-align: center;
+  font-size: 60pt;
+  position: absolute;
+  //-webkit-animation: pulsate 8s infinite linear;  
+  background-color: #2653ad;
+  -webkit-transition: -webkit-transform 1s ease-out, opacity 1s linear;
+  box-sizing: border-box;
+  -webkit-transform-origin: 50% 300px;
+}
+
+.cube:hover .left{
+  -webkit-transform: rotateY(90deg) translateZ(150px) rotateX(-90deg);
+}
+
+.left{
+  -webkit-transform: rotateY(90deg) translateZ(150px) rotateX(0deg);
+   background-image: url('images/hobu boww.jpg');
+  background-size: 150%;
+}
+
+.cube:hover .right{
+  -webkit-transform: rotateY(-90deg) translateZ(150px) rotateX(-90deg);
+}
+
+.right{
+   -webkit-transform: rotateY(-90deg) translateZ(150px);
+   background-image: url('images/misty bow.jpg');
+  background-size: 150%;
+}
+
+.cube:hover .front{
+  -webkit-transform: translateZ(150px) rotateX(-90deg);
+}
+
+.front{
+  -webkit-transform: translateZ(150px);
+  background-image: url('images/IMG_20211216_122229.jpg');
+  background-size: 180%;
+}
+
+.cube:hover .rear{
+  -webkit-transform: translateZ(-150px) rotateX(90deg);
+}
+
+.rear{
+  -webkit-transform: translateZ(-150px);
+  background-image: url('images/IMG_20220128_192716.jpg');
+  background-size: 150%;
+}
+
+.cube:hover .top{
+  opacity: 0;
+}
+
+.top{
+   -webkit-transform: rotateX(90deg) translateZ(150px);
+   background-image: url('images/Mst Era.jpg');
+  background-size: 150%;
+  -webkit-transform-origin: 50% 50%;
+}
+
+
+
+.bottom{
+  -webkit-transform: rotateX(90deg) translateZ(-150px);
+  background-image: url('images/Mst Era.jpg');
+  background-size: 150%;
+  -webkit-transform-origin: 50% 50%;
+}
+
+
+
+
+
+
+.main-content{
+  background-color: #f3f4f6;
+  height: 874px;
+  width: 100%;
+}
+.album-1{
+  background-color: rebeccapurple;
+  height: 400px;
+  width: 22%;
+  float: left;
+   
+  margin-left: 35px;
+  border: 2px;
+  border-radius: 26px;
+  border-block-style: dotted;
+  border-block-color: #e3efe6;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+  margin-top: 22px;
+  box-sizing: border-box;
+  background-image: url('images/my\ family/444.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.album-2{
+  background-color: rgb(38, 197, 117);
+  height: 400px;
+  width: 22%;
+  float: left;
+  margin-left: 35px;
+  border: 2px;
+  border-radius: 26px;
+  border-block-style: dotted;
+  border-block-color: #e3efe6;
+  box-sizing: border-box;
+  margin-top: 22px;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+  background-image: url('images/Mst Era.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.album-3{
+  background-color: rgb(207, 167, 57);
+  height: 400px;
+  width: 22%;
+  float: left;
+  margin-left: 35px;
+  border: 2px;
+  border-radius: 26px;
+  border-block-style: dotted;
+  border-block-color: #e3efe6;
+  box-sizing: border-box;
+  margin-top: 22px;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+  background-image: url('images/my\ family/001 (7).jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.album-4{
+  background-color: rgb(204, 99, 108);
+  height: 400px;
+  width: 22%;
+  float: left;
+  margin-left: 35px;
+  border: 2px;
+  border-radius: 26px;
+  border-block-style: dotted;
+  border-block-color: #e3efe6;
+  box-sizing: border-box;
+  margin-top: 22px;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+  background-image: url('images/my\ family/001 (20).jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.album-5{
+  background-color: rgb(204, 99, 108);
+  height: 400px;
+  width: 22%;
+  float: left;
+  margin-left: 35px;
+  border: 2px;
+  border-radius: 26px;
+  border-block-style: dotted;
+  border-block-color: #e3efe6;
+  box-sizing: border-box;
+  margin-top: 22px;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+  background-image: url('images/my\ family/IMG_20211216_122229.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.album-6{
+  background-color: rgb(204, 99, 108);
+  height: 400px;
+  width: 22%;
+  float: left;
+  margin-left: 35px;
+  border: 2px;
+  border-radius: 26px;
+  border-block-style: dotted;
+  border-block-color: #e3efe6;
+  box-sizing: border-box;
+  margin-top: 22px;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+  background-image: url('images/my\ family/001 (26).jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.album-7{
+  background-color: rgb(204, 99, 108);
+  height: 400px;
+  width: 22%;
+  float: left;
+  margin-left: 35px;
+  border: 2px;
+  border-radius: 26px;
+  border-block-style: dotted;
+  border-block-color: #e3efe6;
+  box-sizing: border-box;
+  margin-top: 22px;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+  background-image: url('images/my\ family/001 (36).jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.album-8{
+  background-color: rgb(204, 99, 108);
+  height: 400px;
+  width: 22%;
+  float: left;
+  margin-left: 35px;
+  border: 2px;
+  border-radius: 26px;
+  border-block-style: dotted;
+  border-block-color: #e3efe6;
+  box-sizing: border-box;
+  margin-top: 22px;
+  box-shadow: 8px 9px 13px rgba(3, 5, 5, 0.5);
+  background-image: url('images/my\ family/001 (14).jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}

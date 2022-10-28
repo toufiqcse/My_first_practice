@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Biodata Brother</title>
+    <link rel="shortcut icon" href="images/favicon.jpg" type="icon">
+    <link rel="stylesheet" href="B toufiq.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="header">
+        <div class="logo-image"></div>
+        <div class="header-text">
+            <h3> আমাদের পরিবার</h3>
+        </div>
+        <div class="search-icon">
+            <input type="text" value="" name="" class="search-icon" placeholder="Search">
+        </div>
+        <div class="sign-in">
+            ‍<a href="sign in/main file.html"> সাইন ইন </a>
+            ‍<a href="#">  লগ আউট </a>
+        </div>
+    </div>
+    <div class="nav-menu">
+        <div class="main-menu">
+          <ul>
+            <li> <a href="index.html">হোম </a></li>
+            <li> <a href="album.html"> এ্যালবাম</a> </li>
+            <li><a href="poricity.html"> পরিচিতি </a> </li>
+            <li> <a href="#"> পরিবার </a> </li>
+            <li><a href="#"> যোগাযোগ </a> </li>
+            
+          </ul>
+          <div class="social-icon">
+            <a href="https://web.facebook.com/toufiqcse7/"> <i class="fa-brands fa-facebook"></i> </a>
+            <a href="https://twitter.com/ToufiqulIsalm"> <i class="fa-brands fa-twitter"></i> </a>
+            <a href=" https://www.youtube.com/channel/UC2MPbkcdQN02644utsJ4Kyw"> <i class="fa-brands fa-youtube"></i> </a>
+            <a href="#"> <i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        
+        
+      </div>
+
+      <div class="biodata">
+          <div class="birth-history">
+
+          </div>
+          <div class="School-life">
+            <div class="head">
+              <div class="text">
+                <h4>School Life</h4>
+              </div>
+            </div>
+            <div class="school-logo"></div>
+            <div class="description">
+              <p> আমি এই মর্মে সার্টিফিকেট প্রদান করিতেছি যে, মাতা.....পিতা.....গ্রাম.....ডাকঘর.... ইউ.পি.... থানা.....  জেলা... ।
+                
+                  সে ব্যক্তিগতভাবে আমার পরিচিত। আমি যতদূর জানি সে কোন প্রকার  রাষ্ট্র ও সমাজ বিরোধী কাজে লিপ্ত নাই।  তাহার স্বভাব চরিত্র ভাল। আমি তাহার ভবিষ্যৎ জীবনের উন্নতি কামনা করি।
+                 </p>
+            </div>
+            <div class="details">
+              <a href="#"><input type="button" value="বায়োডাটা"></a>
+           </div>
+            
+          </div>
+
+          <div class="Madrasha-life">
+            
+          </div>
+
+          <div class="college-life">
+            
+          </div>
+
+          <div class="job-life">
+            
+          </div>
+
+
+      </div>
+
+       
+       
+
+       
+    
+</body>
+</html>

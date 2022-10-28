@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@700;900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(109, 109, 109);
+    width: 100%;
+    height: 90px;
+    display: block;
+    font-family: 'Noto Sans Bengali', sans-serif;
+      
+}
+.logo-image{
+    background-image: url('images/toufiqcse7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 79px;
+    width: 81px;
+    display: block;
+    margin-left: 168px;
+    margin-top: 0;
+    border: 1px solid #fff;
+    border-radius: 58px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    float: left;
+}
+.header-text{
+    display: inline-block;
+    
+    position: relative;
+    margin-left: 123px;
+    margin-top: -13px;
+    font-size: 30px;
+    color: #bbefc8;
+}
+.search-icon{
+    display: inline-block;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 20px;
+    height: 33px;
+    width: 355px;
+    border: 5px black;
+    border-radius: 41px;
+  }
+  .sign-in{
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 566px;
+    margin-top: 37px;
+  }
+  .sign-in a{
+    text-decoration: none;
+    list-style-type: none;
+    color:  #bbefc8;
+    padding-left: 5px;
+    
+  }
+  .sign-in a:hover{
+    color: #432626;
+  }
+  .nav-menu{
+  
+    
+    box-sizing: border-box;
+  }
+  .main-menu{
+    background: rgb(195, 217, 238);
+    position: sticky;
+   
+  }
+  .main-menu ul {
+      list-style-type: none;
+      margin-left: 200px;
+      display: inline;
+     }
+  
+   .main-menu ul li {
+     float: left;
+     position: relative;
+     margin-left: 63px;
+    
+  
+  
+   }
+  
+   .main-menu::after {
+     content: '';
+     display: block;
+     clear: both;
+   }
+  
+   .main-menu ul li a {
+     text-decoration: none;
+     padding: 20px 20px;
+     display: inline-block;
+     font-size: 20px;
+     color: #432626;
+     box-shadow: 3px 0px 8px rgba(0, 0, 0, 0.2);
+     font-family: 'Noto Sans Bengali', sans-serif;
+      float: left;
+  
+  
+   }
+  
+   .main-menu ul li:hover {
+     background: rgb(97, 155, 194);
+   }
+.social-icon{
+  display: inline-block;
+  margin-left: -94px;
+   
+}
+.social-icon a{
+  height: 50px;
+  width: 50px;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  margin-top: 7px;
+  box-shadow: 1px 4px 2px 2px gray;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  padding-left: 1px;
+}
+.social-icon a i{
+  font-size: 25px;
+  transition: all 0.3s linear;
+
+}
+.social-icon a:hover i{
+  transform: scale(1.4);
+}
+.fa-facebook{
+  color: rgb(18, 165, 223);
+}
+.fa-twitter{
+  color: rgb(47, 98, 240);
+}
+.fa-youtube{
+  color: rgb(180, 25, 25);
+}
+.fa-envelope{
+  color: rgba(17, 19, 18, 0.719);
+}
+.main-content{
+  background-color: #f3f4f6;
+  height: 874px;
+  width: 100%;
+}
+.biodata{
+  width: 100%;
+  height: 500px;
+  background-color: #bbefc8;
+}
+.birth-history{
+  height: 450px;
+  width: 17%;
+  background-color: greenyellow;
+ float: left;
+ margin-top: 20px;
+ margin-left: 38px;
+border-radius: 14px;
+box-shadow: 3px 3px 10px rgba(1, 2, 1, .4);
+}
+
+.School-life{
+  height: 450px;
+  width: 17%;
+  background-color: rgb(126, 170, 192);
+ float: left;
+ margin-top: 20px;
+ margin-left: 36px;
+border-radius: 14px;
+box-shadow: 3px 3px 10px rgba(1, 2, 1, .4);
+}
+
+.head{
+  border-bottom: 3px solid black;
+}
+.school-logo{
+  height: 100px;
+  width: 96%;
+  background-image: url('images/school\ logo.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+.description{
+  height: 215px;
+width: 99%;
+display: flex;
+
+}
+.description p{
+  overflow: auto;
+margin-left: 10px;
+font-size: 16px;
+ 
+text-align: left;
+}
+.details{
+  display: inline-block;
+  margin-left: 87px;
+  margin-top: 20px;
+}
+
+.details input{
+  height: 32px;
+  width: 86px;
+  background-color: #e9e9ed;
+  border-radius: 13px;
+  font-size: 16px;
+}
+.details input:hover{
+  background-color: #bbefc8;
+ transform: scale(1.1);
+}
+.text h4{
+  color: #e9e9ed;
+  text-align: center;
+  display: flex;
+}
+
+.Madrasha-life{
+  height: 450px;
+  width: 17%;
+  background-color: rgb(140, 107, 147);
+  float: left;
+  margin-top: 20px;
+  margin-left: 36px;
+border-radius: 14px;
+box-shadow: 3px 3px 10px rgba(1, 2, 1, .4);
+}
+
+.college-life{
+  height: 450px;
+  width: 17%;
+  background-color: rgb(220, 126, 19);
+  float: left;
+  margin-top: 20px;
+  margin-left: 36px;
+border-radius: 14px;
+box-shadow: 3px 3px 10px rgba(1, 2, 1, .4);
+}
+
+.job-life{
+  height: 450px;
+  width: 17%;
+  background-color: rgb(133, 65, 65);
+  float: left;
+  margin-top: 20px;
+  margin-left: 36px;
+border-radius: 14px;
+box-shadow: 3px 3px 10px rgba(1, 2, 1, .4);
+}

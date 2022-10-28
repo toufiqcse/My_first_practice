@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@700;900&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  background-color: rgb(109, 109, 109);
+  width: 100%;
+  height: 90px;
+  display: block;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+.logo-image {
+  background-image: url("images/toufiqcse7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 79px;
+  width: 81px;
+  display: block;
+  margin-left: 168px;
+  margin-top: 0;
+  border: 1px solid #fff;
+  border-radius: 58px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  float: left;
+}
+.header-text {
+  display: inline-block;
+
+  position: relative;
+  margin-left: 123px;
+  margin-top: -13px;
+  font-size: 30px;
+  color: #bbefc8;
+}
+.search-icon {
+  display: inline-block;
+  position: absolute;
+  margin-top: 14px;
+  margin-left: 20px;
+  height: 33px;
+  width: 355px;
+  border: 5px black;
+  border-radius: 41px;
+}
+.sign-in {
+  display: inline-block;
+  position: absolute;
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 566px;
+  margin-top: 37px;
+}
+.sign-in a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #bbefc8;
+  padding-left: 5px;
+}
+.sign-in a:hover {
+  color: #432626;
+}
+.nav-menu {
+  box-sizing: border-box;
+}
+.main-menu {
+  background: rgb(195, 217, 238);
+  position: sticky;
+}
+.main-menu ul {
+  list-style-type: none;
+  margin-left: 200px;
+  display: inline;
+}
+
+.main-menu ul li {
+  float: left;
+  position: relative;
+  margin-left: 63px;
+}
+
+.main-menu::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  padding: 20px 20px;
+  display: inline-block;
+  font-size: 20px;
+  color: #432626;
+  box-shadow: 3px 0px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Noto Sans Bengali", sans-serif;
+  float: left;
+}
+
+.main-menu ul li:hover {
+  background: rgb(97, 155, 194);
+}
+.social-icon {
+  display: inline-block;
+  margin-left: -94px;
+}
+.social-icon a {
+  height: 50px;
+  width: 50px;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  margin-top: 7px;
+  box-shadow: 1px 4px 2px 2px gray;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  padding-left: 1px;
+}
+.social-icon a i {
+  font-size: 25px;
+  transition: all 0.3s linear;
+}
+.social-icon a:hover i {
+  transform: scale(1.4);
+}
+.fa-facebook {
+  color: rgb(18, 165, 223);
+}
+.fa-twitter {
+  color: rgb(47, 98, 240);
+}
+.fa-youtube {
+  color: rgb(180, 25, 25);
+}
+.fa-envelope {
+  color: rgba(17, 19, 18, 0.719);
+}
+.main-content {
+  background-color: #f3f4f6;
+  height: 874px;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face {
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+span {
+  margin: auto;
+  font-size: 2rem;
+}
+
+.carousel__face:nth-child(1) {
+  background-image: url("https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  transform: rotateY(0deg) translateZ(430px);
+}
+.carousel__face:nth-child(2) {
+  background-image: url("https://images.pexels.com/photos/1258865/pexels-photo-1258865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  transform: rotateY(40deg) translateZ(430px);
+}
+.carousel__face:nth-child(3) {
+  background-image: url("https://images.pexels.com/photos/808466/pexels-photo-808466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  transform: rotateY(80deg) translateZ(430px);
+}
+.carousel__face:nth-child(4) {
+  background-image: url("https://images.pexels.com/photos/1394841/pexels-photo-1394841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  transform: rotateY(120deg) translateZ(430px);
+}
+.carousel__face:nth-child(5) {
+  background-image: url("https://images.pexels.com/photos/969679/pexels-photo-969679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  transform: rotateY(160deg) translateZ(430px);
+}
+.carousel__face:nth-child(6) {
+  background-image: url("https://images.pexels.com/photos/1834400/pexels-photo-1834400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  transform: rotateY(200deg) translateZ(430px);
+}
+.carousel__face:nth-child(7) {
+  background-image: url("https://images.pexels.com/photos/1415268/pexels-photo-1415268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  transform: rotateY(240deg) translateZ(430px);
+}
+.carousel__face:nth-child(8) {
+  background-image: url("https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  transform: rotateY(280deg) translateZ(430px);
+}
+.carousel__face:nth-child(9) {
+  background-image: url("https://images.pexels.com/photos/1175135/pexels-photo-1175135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  transform: rotateY(320deg) translateZ(430px);
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+.playground {
+  perspective: 800px;
+}
+.cube {
+  -webkit-transform-style: preserve-3d;
+  position: relative;
+  margin: 0 auto;
+  width: 150px;
+
+  height: 150px;
+
+  animation: spin 16s infinite linear;
+  margin: 20px auto;
+  top: 100px;
+  -webkit-transform-origin: 100% 50%;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateX(-45deg) rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateX(-45deg) rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes pulsate {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.face {
+  width: 300px;
+  height: 300px;
+  border: 6px outset #ccc;
+  text-align: center;
+  font-size: 60pt;
+  position: absolute;
+  //-webkit-animation: pulsate 8s infinite linear;
+  background-color: #2653ad;
+  -webkit-transition: -webkit-transform 1s ease-out, opacity 1s linear;
+  box-sizing: border-box;
+  -webkit-transform-origin: 50% 300px;
+}
+
+.cube:hover .left {
+  -webkit-transform: rotateY(90deg) translateZ(150px) rotateX(-90deg);
+}
+
+.left {
+  -webkit-transform: rotateY(90deg) translateZ(150px) rotateX(0deg);
+  background-image: url("https://th.bing.com/th/id/OIP.IylOFe2_ZOPXl7QD9PRGfAHaGl?pid=ImgDet&rs=1");
+  background-size: 150%;
+}
+
+.cube:hover .right {
+  -webkit-transform: rotateY(-90deg) translateZ(150px) rotateX(-90deg);
+}
+
+.right {
+  -webkit-transform: rotateY(-90deg) translateZ(150px);
+  background: url("https://i.telegraph.co.uk/multimedia/archive/01842/landscape-rainbow_1842437i.jpg");
+  background-size: 150%;
+}
+
+.cube:hover .front {
+  -webkit-transform: translateZ(150px) rotateX(-90deg);
+}
+
+.front {
+  -webkit-transform: translateZ(150px);
+  background: url("http://walls.themespsp.fr/wp-content/uploads/2011/02/Landscape%20-%20Italy_16.jpg");
+  background-size: 180%;
+}
+
+.cube:hover .rear {
+  -webkit-transform: translateZ(-150px) rotateX(90deg);
+}
+
+.rear {
+  -webkit-transform: translateZ(-150px);
+  background: url("http://enchantingkerala.org/digital-photography-school/photos/landscape-photography-graduated-neutral-density-nd-filter.jpg");
+  background-size: 150%;
+}
+
+.cube:hover .top {
+  opacity: 0;
+}
+
+.top {
+  -webkit-transform: rotateX(90deg) translateZ(150px);
+  background: url("http://www.repro-tableaux.com/kunst/ludwig_munthe/winter_landscape.jpg");
+  background-size: 150%;
+  -webkit-transform-origin: 50% 50%;
+}
+
+.bottom {
+  -webkit-transform: rotateX(90deg) translateZ(-150px);
+  background: url("http://www.kaplaninternational.com/fr/images/27-ireland-landscape_tcm10-14949.jpg");
+  background-size: 150%;
+  -webkit-transform-origin: 50% 50%;
+}
